@@ -1,4 +1,3 @@
-
 #include <cs50.h>
 #include <stdio.h>
 
@@ -25,19 +24,22 @@
     int b9=get_int ("What is BR3C3?\n");
          
      
-        int c1=a1+b1;
-        int c2=a2+b2;
-        int c3=a3+b3;
-        int c4=a4+b4;
-        int c5=a5+b5;
-        int c6=a6+b6;
-        int c7=a7+b7;
-        int c8=a8+b8;
-        int c9=a9+b9;
-    printf(i
-                    }
-                    
-                    
-    
-               
-
+        int c1=a1+=b1;
+        int c2=a2+=b2;
+        int c3=a3+=b3;
+        int c4=a4+=b4;
+        int c5=a5+=b5;
+        int c6=a6+=b6;
+        int c7=a7+=b7;
+        int c8=a8+=b8;
+        int c9=a9+=b9;
+    printf("c1=%d\n",a1+b1);
+    printf("c2=%d\n",a2+b2);
+    printf("c3=%d\n",a3+b3);
+    printf("c4=%d\n",a4+b4);
+    printf("c5=%d\n",a5+b5);
+    printf("c6=%d\n",a6+b6);
+    printf("c7=%d\n",a7+b7);
+    printf("c8=%d\n",a8+b8);
+    printf("c9=%d\n",a9+b9);
+    }
